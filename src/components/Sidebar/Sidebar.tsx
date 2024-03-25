@@ -8,11 +8,8 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
-        <img onClick={() => setOpen(!open)} className="menu" src={assets.menu_icon} alt="" />
-        <div className="new-chat">
-          <img src={assets.plus_icon} alt="" />
-          {open ? <p>New Chat</p> : null}
-        </div>
+    
+      
         {open ? (
           <div className="recent">
             <p className="recent-title">Recent</p>
@@ -28,10 +25,7 @@ const Sidebar = () => {
           <img src={assets.question_icon} alt="" />
           {open ? <p>Help</p> : null}
         </div>
-        <div className="bottom-item recent-entry">
-          <img src={assets.history_icon} alt="" />
-          {open ? <p>History</p> : null}
-        </div>
+      
         <div className="bottom-item recent-entry">
           <img src={assets.setting_icon} alt="" />
           {open ? <p>Settings</p> : null}

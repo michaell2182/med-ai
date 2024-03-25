@@ -3,6 +3,7 @@
   min-height: 100vh;
   padding-bottom: 15vh;
   position: relative;
+  background-color: #f0f4f9;
 }
 .main .nav {
   display: flex;
@@ -22,8 +23,8 @@
   margin: auto;
 }
 .main .greet {
-  margin: 50px 0px;
-  font-size: 56px;
+  margin: 150px 0px ;
+  font-size: 72px;
   color: #c4c7c5;
   font-weight: 500;
   padding: 20px;
@@ -100,7 +101,7 @@
   color: #8f8f8f;
 }
 .results {
-  padding: 0px 5%;
+  padding: px 5%;
   max-height: 70vh;
   overflow-y: scroll;
 }
@@ -110,8 +111,6 @@
 .results-title {
   margin: 40px 0px;
   display: flex;
-  align-items: center;
-  gap: 20px;
 }
 .results img {
   width: 40px;
@@ -119,7 +118,7 @@
 }
 .results-data {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   gap: 20px;
 }
 .loader {

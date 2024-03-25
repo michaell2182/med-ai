@@ -28,23 +28,7 @@ const Main = () => {
               </p>
               <p>How can I help you today?</p>
             </div>
-            <div className="cards">
-              <div className="card">
-                <p>
-                  {" "}
-                  How many vitamin and minerals do I need to stay healthy?{" "}
-                </p>
-              </div>
-              <div className="card">
-                <p> How much protein do I need? </p>
-              </div>
-              <div className="card">
-                <p> Signs of high blood pressure? </p>
-              </div>
-              <div className="card">
-                <p> What does it mean when my chest gets tight? </p>
-              </div>
-            </div>
+            
           </>
         ) : (
           <div className="results">
@@ -76,7 +60,7 @@ const Main = () => {
               placeholder="Is there anything I can help you with?"
             />
             <div>
-              <img src={assets.gallery_icon} alt="" />
+              
               <img src={assets.mic_icon} alt="" />
              {input? <img onClick={() => onSent(input)} src={assets.send_icon} alt="" /> : null} 
             </div>
