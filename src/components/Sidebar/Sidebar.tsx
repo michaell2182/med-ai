@@ -3,13 +3,12 @@ import "./Sidebar.css";
 import { assets } from "../../assets/assets";
 
 const Sidebar = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, ] = React.useState(false);
 
   return (
     <div className="sidebar">
       <div className="top">
-    
-      
+
         {open ? (
           <div className="recent">
             <p className="recent-title">Recent</p>
